@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: "fromCompose"
+    ports:
+      - "3000:8080"
